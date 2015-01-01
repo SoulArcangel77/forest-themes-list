@@ -15,12 +15,14 @@ Video tutorial (IT): http://youtu.be/jKAGCsIwxjo
 * **License:** GPLv2 or later
 * **License URI:** http://www.gnu.org/licenses/gpl-2.0.html
 
+==================
 #Requisiti di sistema
 
 * PHP5
 * Wordpress 4.0 o sup.
 * Un plugin per la visualizzazione dei moduli, es. [Contact Form 7](https://wordpress.org/plugins/contact-form-7/)  (opzionale)
 
+==================
 # Installazione
 
 Dopo aver scaricato il file zip, entra nell'area di amministrazione di Wordpress e segui i seguenti passi:
@@ -31,8 +33,7 @@ Dopo aver scaricato il file zip, entra nell'area di amministrazione di Wordpress
 4. **Seleziona** il file zip dal percorso in cui l'hai salvato e clicca su **Installa adesso**
 5. **Attiva plugin**
 
-![image](http://www.mediaclaim.it/wp-content/uploads/2014/12/installazione_ftl_1.jpg)
-
+==================
 # Configurazione
 
 Per configurare il plugin nell'area di amministrazione di Wordpress devi:
@@ -46,8 +47,7 @@ Nella sezione del cambio valuta potete inserire i dati per convertire il prezzo 
 
 Nella sezione delle opzioni avanzate potete far comparire il pulsante "Seleziona" sotto ogni tema. Questo da la possibilità al vostro cliente, dopo la selezione del tema, di inviarvi una richiesta di preventivo.
 
-![image](http://www.mediaclaim.it/wp-content/uploads/2014/12/installazione_ftl_2.jpg)
-
+==================
 # Modalità d'uso
 
 Per visualizzare la gallery di ThemeForest è necessario prima di tutto creare una nuova pagina. All'interno della pagina potete inserire uno dei seguenti shortcode:
@@ -64,8 +64,6 @@ Per visualizzare la gallery di ThemeForest è necessario prima di tutto creare u
 
 Se avete abilitato le opzioni avanzate con la visualizzazione del bottone "select" è necessario inserire lo shortcode del vostro modulo. Il plugin è stato testato sia con [Contact Form 7](https://wordpress.org/plugins/contact-form-7/), sia con [Form Maker](https://wordpress.org/plugins/form-maker/). In questo caso il modulo sarà visibile solo dopo aver selezionato il tema.
 
-![image](http://www.mediaclaim.it/wp-content/uploads/2014/12/uso_ftl.jpg)
-
 ## Opzioni dello shortcode
 
 Le opzioni disponibili sono:
@@ -73,6 +71,7 @@ Le opzioni disponibili sono:
 * **category** {string}: visualizza i temi di ThemeForest di una determinata categoria (default: Wordpress)
 * **input** {string}: indica il nome del campo di testo (o nascosto) del modulo situato all'interno della pagina dove il plugin salva il link del tema selezionato (es. <input type="text" name="selectedTheme" value="" readonly="readonly" /> )
  
+==================
 # Consigli
 
 Per evitare errori di indicizzazione, consiglio l'installazione del modulo [WordPress Meta Robots](https://wordpress.org/plugins/wordpress-meta-robots/) ed impostare il meta robots della pagina contenente questo plugin in "index,nofollow". Questo perché i link dei template vengono corretti in javascript, mentre i robots seguirebbero un link errato. (N.b. Questo plugin funziona anche su WP 4.1)
