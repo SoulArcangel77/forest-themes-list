@@ -1,78 +1,85 @@
-﻿Forest Themes List
+Forest Themes List
 ==================
+(Document translated with Google Translator, so you can suggest corrections!)
+
+(Per leggere questo documento in italiano leggi il file leggimi.md)
 
 Video tutorial (IT): http://youtu.be/jKAGCsIwxjo
 
 * **Plugin Name:** Forest Themes List
 * **Plugin URI:** http://www.mediaclaim.it/forest-themes-list-wp-plugin/
-* **Description:** Forest Themes List è un plugin NON UFFICIALE della EnvantoMarket che, tramite uno shortcode, visualizza una galleria di temi di ThemeForest al fine di poter realizzare un preventivo per i propri clienti. ( Forest Themes List is an EnvantoMarket's UNOFFICIAL plugin that show a gallery themes from ThemeForest to be able to create a pricing for its customers. ) - SHORTCODE: [ftl_gallery]
-* **Version:** 0.1
+* **Description:** Forest Themes List is a UNOFFICIAL plugin of EnvantoMarket that, with a shortcode, displays a ThemeForest's gallery to create a quote for their customers. - SHORTCODE: [ftl_gallery]
+* **Version:** 0.1 
 * **Author:** MediaClaim (Fabrizio Zippo)
 * **Author URI:** http://www.mediaclaim.it
 * **Requires at least:** 4.0
 * **Tested up to:** 4.1
 * **Tags:** gallery, themeforest, evanto, template, theme
 * **License:** GPLv2 or later
+* **Requires at least:** 4.0 
+* **Tested up to:** 4.1 
+* **Tags:**  gallery, ThemeForest, evanto, template, theme
+* **License:** GPLv2 or later 
 * **License URI:** http://www.gnu.org/licenses/gpl-2.0.html
 
-#Requisiti di sistema
+# System Requirements
 
 * PHP5
-* Wordpress 4.0 o sup.
-* Un plugin per la visualizzazione dei moduli, es. [Contact Form 7](https://wordpress.org/plugins/contact-form-7/)  (opzionale)
+* PHP cURL Library
+* WordPress 4.0 or higher.
+* A plugin for contact, eg. [Contact Form 7](https://wordpress.org/plugins/contact-form-7/) (optional)
 
-# Installazione
+# Installation
 
-Dopo aver scaricato il file zip, entra nell'area di amministrazione di Wordpress e segui i seguenti passi:
+After downloaded the zip file, to access the Wordpress admin panel and follow these steps:
 
-1. Clicca su **Plugin**
-2. Clicca su **Aggiungi nuovo**
-3. Clicca su **Carica plugin**
-4. **Seleziona** il file zip dal percorso in cui l'hai salvato e clicca su **Installa adesso**
-5. **Attiva plugin**
+1. Click on **Plugins**
+2. Click on the **Add New**
+3. Click on **Upload plugin**
+4. **Select** the zip file from the local drive and click on the **Install Now**
+5. **Enable plugin**
 
 ![image](http://www.mediaclaim.it/wp-content/uploads/2014/12/installazione_ftl_1.jpg)
 
-# Configurazione
+# Configuration
 
-Per configurare il plugin nell'area di amministrazione di Wordpress devi:
+To configure the plugin you must:
 
-6. Cliccare su **Impostazioni**
-7. Cliccare su **Forest Themes List**
+6. Click on **Settings**
+7. Click on **Forest Themes List** 
 
-Nella prima sezione della configurazione, potete inserire la vostra username del vostro account Evanto, così da poter guadagnare dall'affiliazione dell'EvantoMarket, nel caso in cui il vostro cliente acquisti da solo il tema scelto partendo dal vostro sito.
+In the first section of the configuration, you can write your Evanto username so you can gain from EvantoMarket Affiliation, if your customer purchases the theme starting from your site.
 
-Nella sezione del cambio valuta potete inserire i dati per convertire il prezzo del tema visualizzato.
+In exchange rate section, you can enter data to convert the price of the theme displayed.
 
-Nella sezione delle opzioni avanzate potete far comparire il pulsante "Seleziona" sotto ogni tema. Questo da la possibilità al vostro cliente, dopo la selezione del tema, di inviarvi una richiesta di preventivo.
+In advanced options section, you can show the "Select" button under each theme. This gives the possibility to your customer, after have to selected of the theme, to send a request for quote.
 
 ![image](http://www.mediaclaim.it/wp-content/uploads/2014/12/installazione_ftl_2.jpg)
 
-# Modalità d'uso
+# How to use
 
-Per visualizzare la gallery di ThemeForest è necessario prima di tutto creare una nuova pagina. All'interno della pagina potete inserire uno dei seguenti shortcode:
+To see the gallery of ThemeForest you must first create a new page. Into The page you can enter one of the following shortcode:
 
-- Senza modulo di richiesta preventivo
+- Without quotation form
 
-* **[ftl_gallery]** (visualizza la galleria dei temi di Wordpress di ThemeForest, rif. http://themeforest.net/category/wordpress)
-* **[ftl_gallery category="ecommerce/opencart"]** (visualizza la galleria dei temi di OpenCart, rif. http://themeforest.net/category/ecommerce/opencart)
+* **[ftl_gallery]** (show the WordPress's themes gallery from ThemeForest, ref. http://themeforest.net/category/wordpress)
+* **[ftl_gallery category="ecommerce/opencart"]** (show the OpenCart's themes gallery from ThemeForest, ref. http://themeforest.net/category/ecommerce/opencart)
 
+- With the quote request form
 
-- Con il modulo di richiesta preventivo
+* **[ftl_gallery category="ecommerce/prestashop" input="selected_theme"]** (show the Prestashop's theme gallery from ThemeForest and adds a select button under each theme)
 
-* **[ftl_gallery category="ecommerce/prestashop" input="selected_theme"]** (visualizza la galleria dei temi di Prestashop ed aggiunge sotto ogni tema un pulsante di selezione)
-
-Se avete abilitato le opzioni avanzate con la visualizzazione del bottone "select" è necessario inserire lo shortcode del vostro modulo. Il plugin è stato testato sia con [Contact Form 7](https://wordpress.org/plugins/contact-form-7/), sia con [Form Maker](https://wordpress.org/plugins/form-maker/). In questo caso il modulo sarà visibile solo dopo aver selezionato il tema.
+If you have enabled the advanced options with the display of the "select" button it is necessary to add the shortcode on your contact form. The plugin has been tested with both [Contact Form 7](https://wordpress.org/plugins/contact-form-7/), both with [Form Maker](https://wordpress.org/plugins/form- maker /). In this case the contact form will be visible only after selecting the theme.
 
 ![image](http://www.mediaclaim.it/wp-content/uploads/2014/12/uso_ftl.jpg)
 
-## Opzioni dello shortcode
 
-Le opzioni disponibili sono:
+## Shortcode Options 
+The options are:
 
-* **category** {string}: visualizza i temi di ThemeForest di una determinata categoria (default: Wordpress)
-* **input** {string}: indica il nome del campo di testo (o nascosto) del modulo situato all'interno della pagina dove il plugin salva il link del tema selezionato (es. <input type="text" name="selectedTheme" value="" readonly="readonly" /> )
- 
-# Consigli
+* **category** {string}: show the ThemeForest's themes of one category (default: Wordpress)
+* **input** {string}: denote the name of the input text (or hidden) of the contact form, located in the page, where the plugin saves the link of the selected theme (es. <input type="text" name="selectedTheme" value="" readonly="readonly" /> )
 
-Per evitare errori di indicizzazione, consiglio l'installazione del modulo [WordPress Meta Robots](https://wordpress.org/plugins/wordpress-meta-robots/) ed impostare il meta robots della pagina contenente questo plugin in "index,nofollow". Questo perché i link dei template vengono corretti in javascript, mentre i robots seguirebbero un link errato. (N.b. Questo plugin funziona anche su WP 4.1)
+# Tips
+
+To prevent indexing errors, I suggest to install this plugin, [WordPress Meta Robots](https://wordpress.org/plugins/wordpress-meta-robots/) and set the meta robots of the page whit contain this plugin to "index, nofollow ", because the links of the template are corrected with the javascript, while the robots would follow an incorrect link. (N.B. This plugin also works on WP 4.1)
