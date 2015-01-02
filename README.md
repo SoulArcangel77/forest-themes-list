@@ -1,4 +1,4 @@
-=== Forest Themes List ===
+Forest Themes List
 ============
 
 (Document translated with Google Translator, so you can suggest corrections!)
@@ -23,9 +23,6 @@ Video tutorial (IT): http://youtu.be/jKAGCsIwxjo
 * **License:** GPLv2 or later 
 * **License URI:** http://www.gnu.org/licenses/gpl-2.0.html
 
-== Description ==
-Forest Themes List is a UNOFFICIAL plugin of EnvantoMarket that, with a shortcode, displays a ThemeForest's gallery to create a quote for their customers.
-
 # System Requirements
 
 * PHP5
@@ -33,7 +30,7 @@ Forest Themes List is a UNOFFICIAL plugin of EnvantoMarket that, with a shortcod
 * WordPress 4.0 or higher.
 * A plugin for contact, eg. [Contact Form 7](https://wordpress.org/plugins/contact-form-7/) (optional)
 
-# == Installation ==
+# Installation
 
 After downloaded the zip file, to access the Wordpress admin panel and follow these steps:
 
@@ -88,6 +85,3 @@ The options are:
 
 To prevent indexing errors, I suggest to install this plugin, [WordPress Meta Robots](https://wordpress.org/plugins/wordpress-meta-robots/) and set the meta robots of the page whit contain this plugin to "index, nofollow ", because the links of the template are corrected with the javascript, while the robots would follow an incorrect link. (N.B. This plugin also works on WP 4.1)
 
-# == Changelog ==
-
-v.0.1 Start version
