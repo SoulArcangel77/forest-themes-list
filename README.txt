@@ -6,6 +6,7 @@ Description: Forest Themes List is a UNOFFICIAL plugin of EnvantoMarket that, wi
 Version: 0.1 
 Author: MediaClaim (Fabrizio Zippo)
 Author URI: http://www.mediaclaim.it
+Contributors: MediaClaim
 Requires at least: 4.0
 Tested up to: 4.1
 Stable tag: 0.1
