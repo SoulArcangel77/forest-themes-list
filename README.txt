@@ -1,7 +1,5 @@
 === Forest Themes List ===
 
-Video tutorial (IT): http://youtu.be/jKAGCsIwxjo
-
 Plugin Name: Forest Themes List
 Plugin URI: http://www.mediaclaim.it/forest-themes-list-wp-plugin/
 Description: Forest Themes List is a UNOFFICIAL plugin of EnvantoMarket that, with a shortcode, displays a ThemeForest's gallery to create a quote for their customers.
@@ -21,6 +19,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 Forest Themes List is a UNOFFICIAL plugin of EnvantoMarket that, with a shortcode, displays a ThemeForest's gallery to create a quote for their customers.
+Video tutorial (IT): http://youtu.be/jKAGCsIwxjo
 
 # System Requirements
 
